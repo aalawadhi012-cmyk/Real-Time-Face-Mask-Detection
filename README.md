@@ -20,7 +20,7 @@ Python • YOLO • OpenCV • Computer Vision • Deep Learning • Hugging Fac
   <tr>
     <td align="center">
       <b>Hugging Face Image Detection</b><br>
-      <img src="screenshots/huggingface-test.jpg" width="300">
+      <img src="screenshots/ huggingface-test.jpg" width="300">
     </td>
     <td align="center">
       <b>Real-Time Webcam Detection</b><br>
