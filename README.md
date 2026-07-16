@@ -1,25 +1,60 @@
-Real-Time Face Mask Detection using YOLO
-Overview
+# Real-Time Face Mask Detection using YOLO
 
-This project implements a real-time face mask detection system using the YOLO object detection model. It supports both image-based inference through Hugging Face and live webcam detection using OpenCV.
+A computer vision project that detects whether people are wearing face masks using the YOLO object detection model.
 
-When a person without a face mask is detected, the system automatically:
+The system supports two modes:
+- Image detection through Hugging Face interface.
+- Real-time detection using a laptop webcam.
 
-Captures an image.
-Records the detection timestamp.
-Sends an email notification with the captured image to the responsible person.
-Features
-Real-time webcam detection.
-Image inference via Hugging Face.
-Face mask classification.
-Automatic email alerts.
-Image capture with timestamp.
-Fast inference using YOLO.
-Technologies
-Python
-YOLO
-OpenCV
-Deep Learning
-Computer Vision
-SMTP (Email Notification)
-Hugging Face
+When a person without a mask is detected, the system captures an image, records the detection time, and sends an email alert with the captured image to the responsible person.
+
+## Technologies
+Python • YOLO • OpenCV • Computer Vision • Deep Learning • Hugging Face • SMTP
+
+## Screenshots
+
+### Hugging Face Image Detection
+![Hugging Face](screenshots/huggingface-test.png)
+
+### Real-Time Webcam Detection
+![Webcam](screenshots/webcam-detection.png)
+
+### Email Alert
+![Email Alert](screenshots/email-alert.png)
+
+
+Face-Mask-Detection-YOLO/
+│
+├── app.py
+├── best.pt
+├── requirements.txt
+│
+├── huggingface/
+│   ├── app
+│   ├── app.py
+│   ├── best.pt
+│   └── requirements.txt
+│
+├── screenshots/
+│
+└── README.md
+
+
+
+## Screenshots
+
+### Hugging Face Image Detection
+
+![Hugging Face Detection](screenshots/huggingface-test.png)
+
+### Real-Time Webcam Detection
+
+![Webcam Detection](screenshots/live_test.png)
+
+### Email Notification
+
+![Email Alert](screenshots/email-alert.png)
+
+## Author
+
+Anas Al-Awadhi
