@@ -20,7 +20,7 @@ Python • YOLO • OpenCV • Computer Vision • Deep Learning • Hugging Fac
 ![Webcam](screenshots/webcam-detection.png)
 
 ### Email Alert
-![Email Alert](screenshots/email-alert.png)
+![Email Alert](screenshots/email-alert.jpg)
 
 
 Face-Mask-Detection-YOLO/
