@@ -49,7 +49,7 @@ Face-Mask-Detection-YOLO/
 
 ### Real-Time Webcam Detection
 
-![Webcam Detection](screenshots/live_test.png)
+![Webcam Detection](screenshots/live_test.jpg)
 
 ### Email Notification
 
